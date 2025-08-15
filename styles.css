@@ -1,0 +1,57 @@
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-self: right;
+}
+
+#themeToggle {
+    background-color: #161616;
+    color: #ebebeb;
+    border-radius: 10px;
+    margin: 5px 10px 12px 0px;
+    cursor: pointer;
+}
+
+.dark #themeToggle {
+    background-color: #ebebeb;
+    color: #161616;
+}
+
+body {
+    background-color: #ebebeb;
+    color: #161616;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body.dark {
+    background-color: #161616;
+    color: #ebebeb;
+}
+
+.banner-container {
+    background-color: aqua;
+    display: flex;
+    padding: 16px;
+    gap: 14px;
+}
+
+.banner-item {
+    flex: 3;
+    width: 60%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.banner-image {
+    background-color: lightgreen;
+    width: 40%;
+    flex: 2;
+}
+
+.section-head {
+    color: #9027c9;
+    justify-self: right;
+    flex: 1;
+}
