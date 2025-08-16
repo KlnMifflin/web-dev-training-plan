@@ -18,6 +18,8 @@
         <img src="res/self-portrait.jpg" class="banner-image" alt="Photo of Kaelan Mifflin.">
     </div>
 
+    <br>
+
     <h2 class="section-head">What I Have Done</h2>
     <div class="exp-container">
         <div class="exp-item">
@@ -40,23 +42,36 @@
         </div>
     </div>
 
+    <br>
+
     <h2 class="section-head">What I Can Do</h2>
     
     <p>skills/interests</p>
 
-    <form id="contact-form" onsubmit="return validateForm()" method="post">
-        <h2>Contact Me!</h2>
-        Name: <input type="text" id="fname" required>
-        Email: <input type="text" id="femail" required>
-        Message (optional): <input type="text" id="fmessage">
-        <input type="submit" value="Send Message">
-    </form>
+    <br>
+
+    <section id="contact">
+        <h2 class="section-head">Contact Me!</h2>
+        <form class="contact-form">
+            <div class="name-input"> 
+                <input type="text" name="firstName" placeholder="First Name" required>
+                <input type="text" name="lastName" placeholder="Last Name" required>
+            </div>
+            <input type="text" name="email" placeholder="Email" required>
+            <textarea type="text" name="message" placeholder="Your message (optional)"></textarea>
+            <button id="send-button" type="submit">Send</button>
+        </form>
+    </section>
+    
 
     <br><br><br><br>
-    <p>credits:</p>
-    <a href="https://www.flaticon.com/free-icons/chinese" title="chinese icons">Chinese icons created by Freepik - Flaticon</a>
-    <a href="https://www.flaticon.com/free-icons/ai" title="ai icons">Ai icons created by Voysla - Flaticon</a>
 
+    <section class="credits">
+        <p>Image Credits:</p>
+        <a href="https://www.flaticon.com/free-icons/chinese" title="chinese icons">Chinese icons created by Freepik - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/ai" title="ai icons">Ai icons created by Voysla - Flaticon</a>
+    </section>
+    
     <script src="script.js"></script>
 </body>
 </html>

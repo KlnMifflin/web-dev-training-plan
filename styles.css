@@ -66,7 +66,7 @@ body.dark {
 }
 
 .section-head {
-    font-size: clamp(20px, 3vw, 48px);
+    font-size: clamp(20px, 3vw, 28px);
 }
 
 .exp-container {
@@ -81,8 +81,51 @@ body.dark {
     word-wrap: break-word;
 }
 
-
 .exp-item img {
     max-width: 50%;
     margin: 0 auto;
+}
+
+.contact-form {
+    background-color: #d7d7d7;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.dark .contact-form {
+    background-color: #282828;
+}
+
+.name-input {
+    display: flex;
+    flex: 1;
+    gap: 1.5%;
+}
+
+.name-input input {
+    flex: 1;
+    min-width: 0;
+}
+
+.contact-form textarea {
+    min-height: 5rem;
+}
+
+#send-button {
+    cursor: pointer;
+    background-color: #4dbadb;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+
+
+.credits {
+    font-size: 0.7rem;
 }
