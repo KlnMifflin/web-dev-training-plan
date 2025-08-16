@@ -71,8 +71,8 @@ body.dark {
 
 .exp-container {
     display: flex;
-    gap: 2rem;
     flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .exp-item {
@@ -83,6 +83,22 @@ body.dark {
 
 .exp-item img {
     max-width: 50%;
+    margin: 0 auto;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon {
+    flex: 1 1 250px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.icon img {
+    max-width: 30%;
     margin: 0 auto;
 }
 
@@ -126,6 +142,10 @@ body.dark {
 
 
 
-.credits {
+.footer {
     font-size: 0.7rem;
+}
+
+.dark a {
+    color: lightskyblue;
 }
