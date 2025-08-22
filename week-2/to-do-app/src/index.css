@@ -45,3 +45,13 @@ header h1 {
 .home-main {
     
 }
+
+.list-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
