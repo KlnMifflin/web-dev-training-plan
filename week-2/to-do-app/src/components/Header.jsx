@@ -3,7 +3,7 @@ import todoLogo from "../assets/todo-logo-blue.png"
 
 export default function Header() {
     return (
-        <Link to="/" class="link">
+        <Link to="/" className="link">
             <header>
                 <img src={todoLogo} alt="calendar logo" />
                 <h1>To-Day</h1>
