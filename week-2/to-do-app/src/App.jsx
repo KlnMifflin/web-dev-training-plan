@@ -13,10 +13,10 @@ export default function App() {
             <Header />
             <Routes>
                 {/* Show all lists */}
-                <Route path="/" element={<Home lists={lists} setLists={setLists} />} />
+                <Route path="" element={<Home lists={lists} setLists={setLists} />} />
 
                 {/* Show a single list by id */}
-                <Route path="/:listId" element={<ListPage lists={lists} setLists={setLists} />}/>
+                <Route path=":listId" element={<ListPage lists={lists} setLists={setLists} />}/>
 
             </Routes>
         </div>
