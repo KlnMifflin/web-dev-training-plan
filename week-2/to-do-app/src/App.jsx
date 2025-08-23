@@ -6,10 +6,7 @@ import Header from "./components/Header";
 
 export default function App() {
 
-    const [lists, setLists] = useState([
-        {id: 1+"-listy", name: "listy", items: []},
-        {id: 2+"-pepper", name: "pepper", items: [{name: "huh", done: false}, {name: "nuh", done: true}]},
-    ])
+    const [lists, setLists] = useState([]);
 
     return (
         <div>
